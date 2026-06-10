@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library name="Greenfield School Library" established="2010" location="Kampala, Uganda">
+
+  <!-- ===== CATEGORIES DEFINITION ===== -->
+  <categories>
+    <category id="CAT001" color="#4CAF50">Science &amp; Technology</category>
+    <category id="CAT002" color="#2196F3">Mathematics</category>
+    <category id="CAT003" color="#FF9800">Literature &amp; English</category>
+    <category id="CAT004" color="#9C27B0">History &amp; Social Studies</category>
+    <category id="CAT005" color="#F44336">Religion &amp; Ethics</category>
+    <category id="CAT006" color="#00BCD4">Geography &amp; Environment</category>
+    <category id="CAT007" color="#795548">Reference &amp; General</category>
+    <category id="CAT008" color="#607D8B">Arts &amp; Music</category>
+  </categories>
+
+  <!-- ===== SCHOOL CLASSES DEFINITION ===== -->
+  <classes>
+    <class id="P1"  level="primary"   name="Primary One"   age_range="6-7"/>
+    <class id="P2"  level="primary"   name="Primary Two"   age_range="7-8"/>
+    <class id="P3"  level="primary"   name="Primary Three" age_range="8-9"/>
+    <class id="P4"  level="primary"   name="Primary Four"  age_range="9-10"/>
+    <class id="P5"  level="primary"   name="Primary Five"  age_range="10-11"/>
+    <class id="P6"  level="primary"   name="Primary Six"   age_range="11-12"/>
+    <class id="P7"  level="primary"   name="Primary Seven" age_range="12-13"/>
+    <class id="S1"  level="secondary" name="Senior One"    age_range="13-14"/>
+    <class id="S2"  level="secondary" name="Senior Two"    age_range="14-15"/>
+    <class id="S3"  level="secondary" name="Senior Three"  age_range="15-16"/>
+    <class id="S4"  level="secondary" name="Senior Four"   age_range="16-17"/>
+    <class id="S5"  level="secondary" name="Senior Five"   age_range="17-18"/>
+    <class id="S6"  level="secondary" name="Senior Six"    age_range="18-19"/>
+  </classes>
+
+  <!-- ===== BOOKS CATALOG ===== -->
+  <books>
+
+    <!-- ~~~ SCIENCE & TECHNOLOGY ~~~ -->
+    <book id="BK001">
+      <title>Discover Science: The Natural World</title>
+      <author>James Ochieng</author>
+      <isbn>978-9970-1001-01</isbn>
+      <publisher>Fountain Publishers</publisher>
+      <year>2019</year>
+      <edition>3rd</edition>
+      <copies total="6" available="4"/>
+      <category_ref>CAT001</category_ref>
+      <classes>
+        <class_ref>P4</class_ref>
+        <class_ref>P5</class_ref>
+        <class_ref>P6</class_ref>
+      </classes>
+      <description>An engaging introduction to natural science covering plants, animals, weather and the environment for upper primary pupils.</description>
+      <shelf_location>A-01</shelf_location>
+      <status>available</status>
+    </book>
+
+    <book id="BK002">
+      <title>Integrated Science for Secondary Schools</title>
+      <author>Sarah Nakato</author>
+      <isbn>978-9970-1001-02</isbn>
+      <publisher>MK Publishers</publisher>
+      <year>2020</year>
+      <edition>2nd</edition>
+      <copies total="8" available="5"/>
+      <category_ref>CAT001</category_ref>
+      <classes>
+        <class_ref>S1</class_ref>
+        <class_ref>S2</class_ref>
+        <class_ref>S3</class_ref>
+      </classes>
+      <description>Comprehensive science textbook covering biology, chemistry and physics concepts for O-Level students.</description>
+      <shelf_location>A-02</shelf_location>
+      <status>available</status>
+    </book>
+
+    <book id="BK003">
+      <title>Computer Studies and ICT</title>
+      <author>Peter Muwonge</author>
+      <isbn>978-9970-1001-03</isbn>
+      <publisher>Longhorn Uganda</publisher>
+      <year>2021</year>
+      <edition>1st</edition>
+      <copies total="5" available="2"/>
+      <category_ref>CAT001</category_ref>
+      <classes>
+        <class_ref>S1</class_ref>
+        <class_ref>S2</class_ref>
+        <class_ref>S3</class_ref>
+        <class_ref>S4</class_ref>
+      </classes>
+      <description>Covers hardware, software, internet, spreadsheets, databases and programming basics for secondary students.</description>
+      <shelf_location>A-03</shelf_location>
+      <status>available</status>
+    </book>
+
+    <book id="BK004">
+      <title>Advanced Biology A-Level</title>
+      <author>Grace Atim</author>
+      <isbn>978-9970-1001-04</isbn>
+      <publisher>Fountain Publishers</publisher>
+      <year>2022</year>
+      <edition>2nd</edition>
+      <copies total="4" available="3"/>
+      <category_ref>CAT001</category_ref>
+      <classes>
+        <class_ref>S5</class_ref>
+        <class_ref>S6</class_ref>
+      </classes>
+      <description>Detailed A-Level biology covering cell biology, genetics, ecology, physiology and biotechnology.</description>
+      <shelf_location>A-04</shelf_location>
+      <status>available</status>
+    </book>
+
+    <!-- ~~~ MATHEMATICS ~~~ -->
+    <book id="BK005">
+      <title>Primary Mathematics Book 4</title>
+      <author>Moses Ssekandi</author>
+      <isbn>978-9970-2001-01</isbn>
+      <publisher>USAID/MoES</publisher>
+      <year>2018</year>
+      <edition>4th</edition>
+      <copies total="10" available="7"/>
+      <category_ref>CAT002</category_ref>
+      <classes>
+        <class_ref>P4</class_ref>
+      </classes>
+      <description>Uganda curriculum-aligned mathematics for Primary 4 covering fractions, geometry and basic algebra.</description>
+      <shelf_location>B-01</shelf_location>
+      <status>available</status>
+    </book>
+
+    <book id="BK006">
+      <title>Primary Mathematics Book 6</title>
+      <author>Moses Ssekandi</author>
+      <isbn>978-9970-2001-02</isbn>
+      <publisher>USAID/MoES</publisher>
+      <year>2018</year>
+      <edition>4th</edition>
+      <copies total="10" available="6"/>
+      <category_ref>CAT002</category_ref>
+      <classes>
+        <class_ref>P6</class_ref>
+      </classes>
+      <description>PLE preparation mathematics covering all topics including data handling, percentages and areas.</description>
+      <shelf_location>B-02</shelf_location>
+      <status>available</status>
+    </book>
+
+    <book id="BK007">
+      <title>Mathematics for Uganda: O-Level</title>
+      <author>David Kizito</author>
+      <isbn>978-9970-2001-03</isbn>
+      <publisher>Longhorn Uganda</publisher>
+      <year>2020</year>
+      <edition>3rd</edition>
+      <copies total="8" available="4"/>
+      <category_ref>CAT002</category_ref>
+      <classes>
+        <class_ref>S1</class_ref>
+        <class_ref>S2</class_ref>
+        <class_ref>S3</class_ref>
+        <class_ref>S4</class_ref>
+      </classes>
+      <description>Complete O-Level mathematics with worked examples, exercises and past UNEB questions.</description>
+      <shelf_location>B-03</shelf_location>
+      <status>available</status>
+    </book>
+
+    <book id="BK008">
+      <title>Pure Mathematics A-Level Volume 1 &amp; 2</title>
+      <author>Robert Walusimbi</author>
+      <isbn>978-9970-2001-04</isbn>
+      <publisher>MK Publishers</publisher>
+      <year>2021</year>
+      <edition>1st</edition>
+      <copies total="5" available="5"/>
+      <category_ref>CAT002</category_ref>
+      <classes>
+        <class_ref>S5</class_ref>
+        <class_ref>S6</class_ref>
+      </classes>
+      <description>Comprehensive A-Level pure mathematics covering calculus, vectors, complex numbers and differential equations.</description>
+      <shelf_location>B-04</shelf_location>
+      <status>available</status>
+    </book>
+
+    <!-- ~~~ LITERATURE & ENGLISH ~~~ -->
+    <book id="BK009">
+      <title>English Language for Primary Schools Book 3</title>
+      <author>Anne Nalubega</author>
+      <isbn>978-9970-3001-01</isbn>
+      <publisher>Fountain Publishers</publisher>
+      <year>2017</year>
+      <edition>2nd</edition>
+      <copies total="12" available="9"/>
+      <category_ref>CAT003</category_ref>
+      <classes>
+        <class_ref>P3</class_ref>
+      </classes>
+      <description>Covers reading, writing, grammar, vocabulary and comprehension skills for Primary 3 pupils.</description>
+      <shelf_location>C-01</shelf_location>
+      <status>available</status>
+    </book>
+
+    <book id="BK010">
+      <title>Animal Farm</title>
+      <author>George Orwell</author>
+      <isbn>978-0-14-303943-3</isbn>
+      <publisher>Penguin Books</publisher>
+      <year>2000</year>
+      <edition>Reprint</edition>
+      <copies total="7" available="3"/>
+      <category_ref>CAT003</category_ref>
+      <classes>
+        <class_ref>S3</class_ref>
+        <class_ref>S4</class_ref>
+      </classes>
+      <description>A classic political allegory and set text for Uganda O-Level literature. Teaches themes of power and corruption.</description>
+      <shelf_location>C-02</shelf_location>
+      <status>available</status>
+    </book>
+
+    <book id="BK011">
+      <title>Song of Lawino</title>
+      <author>Okot p'Bitek</author>
+      <isbn>978-9970-3001-03</isbn>
+      <publisher>East African Educational Publishers</publisher>
+      <year>2013</year>
+      <edition>Reprint</edition>
+      <copies total="6" available="6"/>
+      <category_ref>CAT003</category_ref>
+      <classes>
+        <class_ref>S5</class_ref>
+        <class_ref>S6</class_ref>
+      </classes>
+      <description>Iconic East African poem by Uganda's own Okot p'Bitek. An A-Level set text exploring identity and cultural conflict.</description>
+      <shelf_location>C-03</shelf_location>
+      <status>available</status>
+    </book>
+
+    <!-- ~~~ HISTORY & SOCIAL STUDIES ~~~ -->
+    <book id="BK012">
+      <title>Social Studies for Primary Schools Book 5</title>
+      <author>Florence Namutebi</author>
+      <isbn>978-9970-4001-01</isbn>
+      <publisher>Fountain Publishers</publisher>
+      <year>2019</year>
+      <edition>3rd</edition>
+      <copies total="9" available="7"/>
+      <category_ref>CAT004</category_ref>
+      <classes>
+        <class_ref>P5</class_ref>
+      </classes>
+      <description>Covers Ugandan communities, governance, national heritage and the East African community for primary pupils.</description>
+      <shelf_location>D-01</shelf_location>
+      <status>available</status>
+    </book>
+
+    <book id="BK013">
+      <title>History of East Africa: O-Level</title>
+      <author>John Mugerwa</author>
+      <isbn>978-9970-4001-02</isbn>
+      <publisher>MK Publishers</publisher>
+      <year>2020</year>
+      <edition>2nd</edition>
+      <copies total="6" available="2"/>
+      <category_ref>CAT004</category_ref>
+      <classes>
+        <class_ref>S1</class_ref>
+        <class_ref>S2</class_ref>
+        <class_ref>S3</class_ref>
+        <class_ref>S4</class_ref>
+      </classes>
+      <description>Detailed history of East African pre-colonial kingdoms, colonial era and independence movements.</description>
+      <shelf_location>D-02</shelf_location>
+      <status>available</status>
+    </book>
+
+    <!-- ~~~ GEOGRAPHY ~~~ -->
+    <book id="BK014">
+      <title>Geography of Uganda and East Africa</title>
+      <author>Richard Opolot</author>
+      <isbn>978-9970-6001-01</isbn>
+      <publisher>Longhorn Uganda</publisher>
+      <year>2021</year>
+      <edition>2nd</edition>
+      <copies total="7" available="5"/>
+      <category_ref>CAT006</category_ref>
+      <classes>
+        <class_ref>S1</class_ref>
+        <class_ref>S2</class_ref>
+        <class_ref>S3</class_ref>
+        <class_ref>S4</class_ref>
+      </classes>
+      <description>Comprehensive physical and human geography of Uganda and the wider East African region with maps and exercises.</description>
+      <shelf_location>F-01</shelf_location>
+      <status>available</status>
+    </book>
+
+    <!-- ~~~ REFERENCE ~~~ -->
+    <book id="BK015">
+      <title>Oxford English Dictionary (Concise)</title>
+      <author>Various Editors</author>
+      <isbn>978-0-19-861234-5</isbn>
+      <publisher>Oxford University Press</publisher>
+      <year>2019</year>
+      <edition>12th</edition>
+      <copies total="3" available="3"/>
+      <category_ref>CAT007</category_ref>
+      <classes>
+        <class_ref>P5</class_ref>
+        <class_ref>P6</class_ref>
+        <class_ref>P7</class_ref>
+        <class_ref>S1</class_ref>
+        <class_ref>S2</class_ref>
+        <class_ref>S3</class_ref>
+        <class_ref>S4</class_ref>
+        <class_ref>S5</class_ref>
+        <class_ref>S6</class_ref>
+      </classes>
+      <description>The standard English dictionary for school use. Reference only — not for borrowing.</description>
+      <shelf_location>G-01</shelf_location>
+      <status>reference_only</status>
+    </book>
+
+    <book id="BK016">
+      <title>World Atlas for Schools</title>
+      <author>Various</author>
+      <isbn>978-0-00-731234-1</isbn>
+      <publisher>Collins</publisher>
+      <year>2022</year>
+      <edition>5th</edition>
+      <copies total="4" available="4"/>
+      <category_ref>CAT007</category_ref>
+      <classes>
+        <class_ref>P4</class_ref>
+        <class_ref>P5</class_ref>
+        <class_ref>P6</class_ref>
+        <class_ref>P7</class_ref>
+        <class_ref>S1</class_ref>
+        <class_ref>S2</class_ref>
+        <class_ref>S3</class_ref>
+        <class_ref>S4</class_ref>
+      </classes>
+      <description>Full-colour world atlas with political, physical and thematic maps. Reference only.</description>
+      <shelf_location>G-02</shelf_location>
+      <status>reference_only</status>
+    </book>
+
+  </books>
+
+  <!-- ===== BORROWING RECORDS ===== -->
+  <borrowing_records>
+    <record id="BR001">
+      <book_ref>BK002</book_ref>
+      <borrower_name>Aisha Nalwoga</borrower_name>
+      <borrower_class>S2</borrower_class>
+      <borrow_date>2024-01-15</borrow_date>
+      <due_date>2024-01-29</due_date>
+      <return_date>2024-01-28</return_date>
+      <status>returned</status>
+    </record>
+    <record id="BR002">
+      <book_ref>BK007</book_ref>
+      <borrower_name>Brian Mukasa</borrower_name>
+      <borrower_class>S3</borrower_class>
+      <borrow_date>2024-02-01</borrow_date>
+      <due_date>2024-02-15</due_date>
+      <return_date></return_date>
+      <status>borrowed</status>
+    </record>
+    <record id="BR003">
+      <book_ref>BK010</book_ref>
+      <borrower_name>Claire Atuhaire</borrower_name>
+      <borrower_class>S4</borrower_class>
+      <borrow_date>2024-01-20</borrow_date>
+      <due_date>2024-02-03</due_date>
+      <return_date></return_date>
+      <status>overdue</status>
+    </record>
+    <record id="BR004">
+      <book_ref>BK013</book_ref>
+      <borrower_name>David Opio</borrower_name>
+      <borrower_class>S2</borrower_class>
+      <borrow_date>2024-02-05</borrow_date>
+      <due_date>2024-02-19</due_date>
+      <return_date></return_date>
+      <status>borrowed</status>
+    </record>
+    <record id="BR005">
+      <book_ref>BK001</book_ref>
+      <borrower_name>Faith Nankya</borrower_name>
+      <borrower_class>P5</borrower_class>
+      <borrow_date>2024-02-08</borrow_date>
+      <due_date>2024-02-22</due_date>
+      <return_date></return_date>
+      <status>borrowed</status>
+    </record>
+  </borrowing_records>
+
+</library>
